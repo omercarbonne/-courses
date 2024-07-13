@@ -1,0 +1,17 @@
+omercarbonne
+209193523
+
+1. The strategies of each player:
+Whatever - chooses random empty cell
+Genius - chooses a cell that closes to another cell with his mark,
+ if there isn't chose random.
+Clever - mix of both players. 50% chance to choose as genius, and 50% chance to chose as whatever/
+
+2. The big advantage is that now the code is much readable, easier to changes, and can accept many kinds of players and renderers easily by changing only one part of the code (the factories).
+We used:
+- encapsulation
+- polymorphism 
+
+- modularity
+- Abstraction
+- single choice principle 
